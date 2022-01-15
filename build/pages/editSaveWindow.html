@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Editar dados salvos</title>
+</head>
+<body>
+    <main class="h-100 w-100 d-flex flex-column align-items-center" id="editSaveWindow" >
+        
+        <h1 class="display-1">Editando dados</h1>
+        <h2 class="m-3">Digite os novos dados</h2>
+
+        <div class='w-100 d-flex flex-column align-items-center m-3' id="editSaveWindowForm">
+            <input type="number" class='form-control form-control-lg mt-3 w-50 text-center' id="editActualQuilometers" placeholder="Quilometragem atual">
+            <input type="number" class='form-control form-control-lg mt-3 w-50 text-center' id="editLitersStockeds" placeholder="Litros abastecidos">
+            <input type="number" class='form-control form-control-lg mt-3 w-50 text-center' id="editTotalValue" placeholder="Valor total">
+            <input type="date" class='form-control form-control-lg mt-3 w-50 text-center' id="editSupplyDate" placeholder="Data">
+        </div>
+        <div class="d-flex  mt-3">
+            <button class='btn btn-light btn-lg' id="editButton">Editar</button>
+            <button class="btn btn-danger btn-lg  ms-2" id="editDeleteButton" data-toggle="modal" data-target="#exampleModal">Excluir save</button>
+        </div>
+    </main>
+</body>
+</html>

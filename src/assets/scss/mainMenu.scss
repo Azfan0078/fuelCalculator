@@ -1,0 +1,17 @@
+$mainColor: #162433;
+html{
+    font-size: 20px;
+}
+body , html{
+    height: 100%;
+    overflow: hidden;
+}
+main{
+    background-color: $mainColor;
+    width: 80%;
+    height: 100%;
+    color: white;
+}
+
+
+
